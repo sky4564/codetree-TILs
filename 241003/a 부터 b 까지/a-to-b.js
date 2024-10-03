@@ -31,6 +31,8 @@ function sol() {
             if(i*2 <= b){
                 ans += `${2*i} `
                 i = 2*i - 1     
+            }else {
+                break
             }
         }
     }
